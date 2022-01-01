@@ -34,3 +34,11 @@ function hab(a:number, b:number):number{
     return a + b ;
 }
 
+//함수의 옵셔널 파라미터 ?표를 넣으면 반드시 들어가지 않아도 됨
+function log(a: string, b?: string){
+
+}
+
+log('hello world')
+log('hello ts','abd')
+
